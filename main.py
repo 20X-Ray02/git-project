@@ -39,6 +39,32 @@ class Example(Frame):
             #Дверь
             canvas.create_polygon(295 / 10 * scl + x, 355 / 10 * scl + y, 295 / 10 * scl + x, 496 / 10 * scl + y, 350 / 10 * scl + x, 505 / 10 * scl + y, 350 / 10 * scl + x, 357 / 10 * scl + y, fill='#d2691e', outline='black'),
             canvas.create_polygon(300 / 10 * scl + x, 355 / 10 * scl + y, 300 / 10 * scl + x, 495 / 10 * scl + y, 350 / 10 * scl + x, 505 / 10 * scl + y, 350 / 10 * scl + x, 357 / 10 * scl + y, fill='#1d3ec2', outline='black', width='3'),
+            #Окна
+            canvas.create_polygon(221 / 10 * scl + x, 351 / 10 * scl + y, 221 / 10 * scl + x, 403 / 10 * scl + y, 255 / 10 * scl + x, 407 / 10 * scl + y, 256 / 10 * scl + x, 353 / 10 * scl + y, fill='#d2691e', outline='black'),
+            canvas.create_polygon(225 / 10 * scl + x, 351 / 10 * scl + y, 225 / 10 * scl + x, 400 / 10 * scl + y, 255 / 10 * scl + x, 403 / 10 * scl + y, 255 / 10 * scl + x, 353 / 10 * scl + y, fill='white', outline='black', width='3'),
+            canvas.create_polygon(696 / 10 * scl + x, 396 / 10 * scl + y, 696 / 10 * scl + x, 504 / 10 * scl + y, 750 / 10 * scl + x, 511 / 10 * scl + y, 751 / 10 * scl + x, 399 / 10 * scl + y, fill='#d2691e', outline='black'),
+            canvas.create_polygon(700 / 10 * scl + x, 400 / 10 * scl + y, 700 / 10 * scl + x, 500 / 10 * scl + y, 750 / 10 * scl + x, 507 / 10 * scl + y, 750 / 10 * scl + x, 403 / 10 * scl + y, fill='white', outline='black', width='3'),
+            canvas.create_polygon(624 / 10 * scl + x, 391 / 10 * scl + y, 624 / 10 * scl + x, 494 / 10 * scl + y, 679 / 10 * scl + x, 501 / 10 * scl + y, 679 / 10 * scl + x, 394 / 10 * scl + y, fill='#d2691e', outline='black'),
+            canvas.create_polygon(628 / 10 * scl + x, 395 / 10 * scl + y, 628 / 10 * scl + x, 490 / 10 * scl + y, 678 / 10 * scl + x, 497 / 10 * scl + y, 678 / 10 * scl + x, 398 / 10 * scl + y, fill='white', outline='black', width='3'),
+            canvas.create_polygon(246 / 10 * scl + x, 221 / 10 * scl + y, 246 / 10 * scl + x, 296 / 10 * scl + y, 310 / 10 * scl + x, 299 / 10 * scl + y, 310 / 10 * scl + x, 216 / 10 * scl + y, fill='#d2691e', outline='black'),
+            canvas.create_polygon(250 / 10 * scl + x, 225 / 10 * scl + y, 250 / 10 * scl + x, 292 / 10 * scl + y, 310 / 10 * scl + x, 295 / 10 * scl + y, 310 / 10 * scl + x, 220 / 10 * scl + y, fill='white', outline='black', width='3'),
+            canvas.create_line(280 / 10 * scl + x, 223 / 10 * scl + y, 280 / 10 * scl + x, 296 / 10 * scl + y, fill='black', width='3'),
+            canvas.create_polygon(631 / 10 * scl + x, 191 / 10 * scl + y, 631 / 10 * scl + x, 301 / 10 * scl + y, 720 / 10 * scl + x, 304 / 10 * scl + y, 720 / 10 * scl + x, 186 / 10 * scl + y, fill='#d2691e', outline='black'),
+            canvas.create_polygon(635 / 10 * scl + x, 195 / 10 * scl + y, 635 / 10 * scl + x, 297 / 10 * scl + y, 720 / 10 * scl + x, 300 / 10 * scl + y, 720 / 10 * scl + x, 190 / 10 * scl + y, fill='white', outline='black', width='3'),
+            canvas.create_line(675 / 10 * scl + x, 193 / 10 * scl + y, 675 / 10 * scl + x, 300 / 10 * scl + y, fill='black', width='3'),
+            canvas.create_polygon(1000 / 10 * scl + x, 375 / 10 * scl + y, 1000 / 10 * scl + x, 455 / 10 * scl + y, 1054 / 10 * scl + x, 438 / 10 * scl + y, 1054 / 10 * scl + x, 368 / 10 * scl + y, fill='#d2691e', outline='black'),
+            canvas.create_polygon(1000 / 10 * scl + x, 375 / 10 * scl + y, 1000 / 10 * scl + x, 450 / 10 * scl + y, 1050 / 10 * scl + x, 435 / 10 * scl + y, 1050 / 10 * scl + x, 368 / 10 * scl + y, fill='white', outline='black', width='3'),
+            #Веранда
+            canvas.create_polygon(255 / 10 * scl + x, 489 / 10 * scl + y, 200 / 10 * scl + x, 520 / 10 * scl + y, 325 / 10 * scl + x, 545 / 10 * scl + y, 380 / 10 * scl + x, 510 / 10 * scl + y, fill='#c1bba4', outline='black'),
+            canvas.create_polygon(200 / 10 * scl + x, 520 / 10 * scl + y, 200 / 10 * scl + x, 530 / 10 * scl + y, 325 / 10 * scl + x, 555 / 10 * scl + y, 325 / 10 * scl + x, 545 / 10 * scl + y, fill='#c1bba4', outline='black'),
+            canvas.create_polygon(380 / 10 * scl + x, 510 / 10 * scl + y, 325 / 10 * scl + x, 545 / 10 * scl + y, 325 / 10 * scl + x, 555 / 10 * scl + y, 380 / 10 * scl + x, 520 / 10 * scl + y, fill='#c1bba4', outline='black'),
+            canvas.create_polygon(315 / 10 * scl + x, 543 / 10 * scl + y, 325 / 10 * scl + x, 545 / 10 * scl + y, 325 / 10 * scl + x, 350 / 10 * scl + y, 315 / 10 * scl + x, 350 / 10 * scl + y, fill='#d2691e', outline='black'),
+            canvas.create_polygon(325 / 10 * scl + x, 350 / 10 * scl + y, 325 / 10 * scl + x, 545 / 10 * scl + y, 335 / 10 * scl + x, 538 / 10 * scl + y, 335 / 10 * scl + x, 350 / 10 * scl + y, fill='#d2691e', outline='black'),
+            canvas.create_polygon(200 / 10 * scl + x, 520 / 10 * scl + y, 210 / 10 * scl + x, 522 / 10 * scl + y, 210 / 10 * scl + x, 380 / 10 * scl + y, 200 / 10 * scl + x, 380 / 10 * scl + y, fill='#d2691e', outline='black'),
+            canvas.create_polygon(210 / 10 * scl + x, 380 / 10 * scl + y, 210 / 10 * scl + x, 522 / 10 * scl + y, 218 / 10 * scl + x, 516 / 10 * scl + y, 218 / 10 * scl + x, 380 / 10 * scl + y, fill='#d2691e', outline='black'),
+            canvas.create_polygon(240 / 10 * scl + x, 333 / 10 * scl + y, 170 / 10 * scl + x, 374 / 10 * scl + y, 325 / 10 * scl + x, 387 / 10 * scl + y, 395 / 10 * scl + x, 343 / 10 * scl + y, fill='#c1bba4', outline='black'),
+            canvas.create_polygon(170 / 10 * scl + x, 374 / 10 * scl + y, 170 / 10 * scl + x, 383 / 10 * scl + y, 325 / 10 * scl + x, 395 / 10 * scl + y, 325 / 10 * scl + x, 385 / 10 * scl + y, fill='#c1bba4', outline='black'),
+            canvas.create_polygon(325 / 10 * scl + x, 385 / 10 * scl + y, 325 / 10 * scl + x, 395 / 10 * scl + y, 395 / 10 * scl + x, 353 / 10 * scl + y, 395 / 10 * scl + x, 343 / 10 * scl + y,fill='#c1bba4', outline='black'),
 
         canvas.pack(fill=BOTH, expand=True)
 
